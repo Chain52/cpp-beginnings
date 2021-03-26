@@ -1,4 +1,4 @@
-#include "functions.h"
+#include "function.h"
 
 double add(double x, double y) {
     return x + y;

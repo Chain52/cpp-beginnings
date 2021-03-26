@@ -1,5 +1,5 @@
 #include <iostream>
-#include "functions.h"
+#include "function.h"
 using std::cout;
 
 int main() {

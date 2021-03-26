@@ -18,7 +18,7 @@ int main() {
             cout << "The number you've guessed is too high. Please try again.\n";
         } else {
             keepGoing = false;
-            cout << "Congradulations! You got it!";
+            cout << "Congratulations! You got it!";
         }
     }
 }
