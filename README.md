@@ -1,6 +1,6 @@
 # cpp-beginnings
 
-CPP-Beginnings is Colin's C++ learning adventure. In the end, the `main.exe` file will bring up a command line interface to select each of the modules/executables in the `\src\` directory. In it's current state, each module would need to be compiled separately.
+CPP-Beginnings is Colin's C++ learning adventure. In the end, the `main.exe` file will bring up a command line interface to select each of the modules/executables in the `src` directory. In it's current state, each module would need to be compiled separately.
 
 ## Installation
 
