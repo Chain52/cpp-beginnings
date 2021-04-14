@@ -2,9 +2,9 @@
 using std::cout;
 using std::cin;
 
-// Haven't fully learned error checking yet so strings will break the program
+//TODO: Type based error handling
 
-int main() {
+int run() {
     float firstNumber;
     float secondNumber;
     bool keepGoing = true;

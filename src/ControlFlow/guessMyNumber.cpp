@@ -4,7 +4,7 @@
 using std::cout;
 using std::cin;
 
-int main() {
+int run() {
     srand((unsigned) time(0));
     int secret = (rand() % 10) + 1;
     int guess;

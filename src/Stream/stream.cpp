@@ -2,7 +2,7 @@
 using std::cout;
 using std::cin;
 
-int main() {
+int run() {
     cout << "--------------------------\n";
     cout << "Hello!" << '\n';
     cout << "I am testing the standard input so I'd like to do 3 things: \n\t Floats: ";
@@ -15,4 +15,5 @@ int main() {
     cin >> floatingNumber;
     cout << '\n' << floatingNumber << " - Decent choice of number! My favorite number would have to be 52.\n";
     cout << "--------------------------";
+    return 0;
 }

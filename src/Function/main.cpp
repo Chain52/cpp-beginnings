@@ -2,7 +2,7 @@
 #include "function.h"
 using std::cout;
 
-int main() {
+int run() {
     int total = add(3, 4);
     cout << "3 + 4 is " << total << '\n';
 

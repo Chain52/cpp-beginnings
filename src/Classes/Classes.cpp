@@ -3,7 +3,7 @@ using std::cout;
 
 #include "Account.h"
 
-int main() {
+int run() {
   Account account;
   account.Deposit(90);
   cout << "After depositing $90 your balance is " << account.GetBalance() << ".\n";

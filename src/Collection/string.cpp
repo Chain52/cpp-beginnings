@@ -5,7 +5,7 @@ using std::cin;
 #include <string>
 using std::string;
 
-int main() {
+int run() {
   string name;
   cout << "Who are you? ";
   cin >> name;

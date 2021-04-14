@@ -14,7 +14,7 @@ using std::end;
 using std::sort;
 using std::count;
 
-int main() {
+int run() {
   vector<int> nums;
 
   for (int i = 0; i < 10; i++) {
