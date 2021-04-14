@@ -41,37 +41,45 @@ int main() {
     }
 
     switch (option) {
-    case 1:
+    case 1: {
       Stream stream;
       stream.run();
+    }
       break;
-    case 2:
+    case 2: {
       ControlFlow controlFlow;
       controlFlow.run();
+    }
       break;
-    case 3:
+    case 3: {
       GuessMyNumber guessMyNumber;
       guessMyNumber.run();
+    }
       break;
-    case 4:
+    case 4: {
       Functions functions;
       functions.run();
+    }
       break;
-    case 5:
+    case 5: {
       StringC stringC;
       stringC.run();
+    }
       break;
-    case 6:
+    case 6: {
       CompareLength compareLength;
       compareLength.run();
+    }
       break;
-    case 7:
+    case 7: {
       Collection collection;
       collection.run();
+    }
       break;
-    case 8:
+    case 8: {
       Classes classes;
       classes.run();
+    }
       break;
     default:
       cout << "Please select a value between 1-8.\n\n";
