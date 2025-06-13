@@ -33,8 +33,6 @@ main.cpp:           # Entry point (placeholder or temporary)
 
 > ⚠️ This repository is archived. It is not intended for reuse or modification. These steps are preserved for historical context only.
 
-Use [git](https://git-scm.com/) to clone the repository.
-
 ### Prerequisites
 - [git](https://git-scm.com/)
 - A modern C++ compiler:
@@ -53,6 +51,7 @@ make
 
 **Windows (PowerShell)**:
 ```powershell
+git clone https://github.com/Chain52/cpp-beginnings.git
 mkdir build; cd build
 cmake ..
 cmake --build .
@@ -73,6 +72,25 @@ int main() {
     return 0;
 }
 ```
+
+**UNIX/macOS**:
+```bash
+cd build
+cmake ..          # Regenerate build files if needed
+make              # Compile the binary
+./cpp-beginnings  # Run the executable
+```
+
+**Windows (PowerShell)**:
+```powershell
+cd build
+cmake ..                    # Regenerate build files if needed
+cmake --build .             # Compile the binary
+.\Debug\cpp-beginnings.exe  # Run the executable (may be in Debug or Release folder)
+```
+
+
+> 📌 Note: The actual executable name may differ if changes are made to the `CMakeLists.txt` configuration. By default, it matches the name passed to `add_executable()`, `cpp-beginnings.exe`
 
 ## Acknowledgements
 
